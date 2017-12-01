@@ -192,7 +192,7 @@ body {
 /* header */
 header {
   background: #31caec;
-  border-color: #0b68a2;
+  border-color: #a3a3a3;
 }
 
 /* nav background on mobile */
@@ -217,7 +217,7 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #0b68a2;
+  color: #a3a3a3;
 }
 
 
