@@ -13,10 +13,10 @@
   <body>
     <header>
       <a href="index.html" id="logo">
-        <h1>Tom Emmerson</h1>
-        <h2>UX Designer</h2>
+        <h1 style="color: white">Tom Emmerson</h1>
+        <h2 style="color: white">UX Designer</h2>
       </a>
-      <nav>
+      <nav id="top">
         <ul>
           <li><a href="index.html" class="selected">Portfolio</a></li>
           <li><a href="about.html" class="">About</a></li>
@@ -27,42 +27,34 @@
       <section>
         <ul id="gallery">
           <li>
-            <a href="img/oxfam-thumbnail.png">
-              <img src="img/oxfam-thumbnail.png" alt="">
-              <p>Refreshing the Oxfam homepage.</p>
+            <a href="index.html#Oxfam">
+              <img src="img/oxfam-thumbnail.png" alt="Oxfam portfolio icon">
+              <p>Refreshing the Oxfam homepage to increase donations.</p>
             </a>
           </li>
           <li>
-            <a href="img/numbers-02.jpg">
-              <img src="img/numbers-02.jpg" alt="">
-              <p>1234567890 1234567890 123456</p>
+            <a href="index.html#Co-op">
+              <img src="img/coopfood.png" alt="The Co-op Food mobile user journey">
+              <p>Updating Co-op Food's mobile apps to promote deals.</p>
             </a>
           </li>
-          <li>
-            <a href="img/numbers-06.jpg">
+          <li style="display: none">
+            <a href="index.html#PushDr">
               <img src="img/numbers-06.jpg" alt="">
-              <p>1234567890 1234567890 123456</p>
+              <p>Providing repeat prescriptions with Push Doctor.</p>
             </a>
           </li>
         </ul>
       </section>
-<h3>Refreshing the Oxfam homepage</h3>
-<p>
-Oxfam is a confederation of numerous businesses and charities that operates throughout the developed and developing world. Its mission is to help some of the most deprived and vulnerable sections of society. As a large, multi-national organisation, Oxfam has a number of high-level business goals. It needs to curate its brand’s perception in the eyes of the public; it needs to keep driving donations in order to sustain a functioning business; and finally it needs to preserve its charity shop business, which provides a substantial amount of its annual revenue.
-</p>
-
-<h3>The problem</h3>
-<p>
-In modern society and the age of austerity that has dominated since 2008-2009, household budgets are shrinking year on year. This is being compounded by sustained inflation and wages that are rising at the same rate, gradually reducing take-home incomes over the long-term. In this environment, donations by the public to charities are shrinking - even amongst those with well-known and prestigious brands like Oxfam.
-</p>
-<h3>Objectives</h3>
-<p>
-I was approached by a friend who works for the organisation. They asked me to review Oxfam’s existing website from a user experience (UX) perspective; identify any existing pain points or areas of friction to users; to suggest ways to improve the UX; and finally to demonstrate how these suggestions will enable users to achieve their goals more easily as well as enabling Oxfam themselves to better achieve their business goals. The most important part of the brief,therefore, is to find ways to change the user experience that customers have with Oxfam’s webpage in order to stimulate a greater level of charitable donations, and therefore secure the long-term sustainability of the charity.
-</p>
-<h3>Target users</h3>
-<p>
-From material available in the web public domain, I have found that Oxfam classify their supporters into half a dozen or so groups, including Regular giver, Single giver, Campaigner, Shop Purchaser, and Shop Gift Aider. Each of these groups represents one or more use cases that I can use to evaluate existing user journeys through the Oxfam website.
-</p>
+      <div id="Oxfam">
+      <h3 style="clear: both; text-decoration: underline; text-align: left">Case-study - Oxfam homepage</h3>
+      <p>Oxfam is a confederation of numerous businesses and charities that operates throughout the developed and developing world. Its mission is to help some of the most deprived and vulnerable sections of society. As a large, multi-national organisation, Oxfam has a number of high-level business goals. It needs to curate its brand’s perception in the eyes of the public; it needs to keep driving donations in order to sustain a functioning business; and finally it needs to preserve its charity shop business, which provides a substantial amount of its annual revenue.</p>
+      <h3>The problem</h3>
+      <p>In modern society and the age of austerity that has dominated since 2008-2009, household budgets are shrinking year on year. This is being compounded by sustained inflation and wages that are rising at the same rate, gradually reducing take-home incomes over the long-term. In this environment, donations by the public to charities are shrinking - even amongst those with well-known and prestigious brands like Oxfam.</p>
+      <h3>Objectives</h3>
+      <p>I was approached by a friend who works for the organisation. They asked me to review Oxfam’s existing website from a user experience (UX) perspective; identify any existing pain points or areas of friction to users; to suggest ways to improve the UX; and finally to demonstrate how these suggestions will enable users to achieve their goals more easily as well as enabling Oxfam themselves to better achieve their business goals. The most important part of the brief,therefore, is to find ways to change the user experience that customers have with Oxfam’s webpage in order to stimulate a greater level of charitable donations, and therefore secure the long-term sustainability of the charity.</p>
+      <h3>Target users</h3>
+      <p>From material available in the web public domain, I have found that Oxfam classify their supporters into half a dozen or so groups, including Regular giver, Single giver, Campaigner, Shop Purchaser, and Shop Gift Aider. Each of these groups represents one or more use cases that I can use to evaluate existing user journeys through the Oxfam website.</p>
 <img src="img/as-is-homepage.png" alt="As Is Homepage">
 
 <h3>Testing</h3>
@@ -84,22 +76,11 @@ To help participants better formulate their ideas, I asked them to record them i
 Using this method, I was able to elicit  a large volume of divergent ideas and suggestions. This was entirely preferable  to producing a limited number  of suggestions myself, because there was no chance of my individual creativity  matching that of a large number of people. I then used these ideas as the basis for new webpage designs.
 </p>
 <h3>Common findings</h3>
-<p>
-After reviewing all of the feedback from these sessions, I found that all of the comments could be grouped into a number of thematic areas:
-</p>
-<ol>
-<ul>Contextual choices</ul>
-<ul>Duplication</ul>
-<ul>Fields</ul>
-<ul>Links</ul>
-<ul>Navigation</ul>
-<ul>Organisation</ul>
-</ol>
 
 <p>
 As a result of conducting this user testing, there are a number of potential suggestions that could be enacted. I have organised them below by thematic area, as well as cross-referencing them alongside the user-focused KPI/s that I think they will have an impact on:
 </p>
-<table>
+<table style="text-align: left; vertical-align: top">
   <tr>
     <th>Area / KPI</th>
     <th>KPI 1 - Average time spent on website per user session.</th> 
@@ -135,7 +116,6 @@ As a result of conducting this user testing, there are a number of potential sug
 
 4b Add another prominent link into the accented banner in the header, named “Shop in-store”.</td>
 <td>4c Move certain links from the header to the footer to make others more prominent.</td>
-<td>-</td>
 </tr>
 <tr>
 <td>5 - navigation</td>
@@ -176,10 +156,131 @@ Conclusion
 <p>
 The Oxfam homepage has a number of vitally important user goals. These goals are overall reasonably easy to accomplish, but when tested with a group of users that had never used the site before, it was found that several elements of the site were arranged sub-optimally. The proposed new design above, is just one single suggestion of how the site could be altered in order to hopefully improve its performance and overall usability. However - this is only one of a myriad approaches that could be adopted. I recommend that the owners of this site implement A/B, or ‘split’ testing (by sending users at random to one of several different versions of the site, and then monitoring the overall usage analytics for each different site). This will allow them to experiment with several different changes to the arrangement of page elements, and quickly establish through the use of objective data which is most effective. I also recommend that the owners of the site be prepared to frequently re-test their site with new users, as frequent customer feedback is one of the most effective ways to continually optimise a website or piece of software.
 </p>
+</div><!--Oxfam-->
+<div id="Co-op">
+<h3 style="text-align: left; text-decoration: underline">Case-study - The Co-operative Food</h3>
+<p>
+In this case study, I will recount the work I was involved in when I worked for the Co-operative Group several years ago.
+</p>
+<h3>Background</h3>
+<p>
+The Co-operative Wholesale Society (CWS) has been in existence since 1863, and celebrated its 150-year anniversary in 2013. Throughout this period, the society has sought to operate in an ethical and sustainable fashion. Whilst this has meant the business has grown consistently and reliably, it has also lagged behind new developments in technology and supply chain efficiency as a result.
+</p>
+<p>
+In the last decade, the Co-operative Group was formed to preside over the Co-operative portfolio of companies - a group including a food division, legal, insurance, electrical goods, and travel amongst others. Whilst operational and day-to-day business decisions remain with each business unit, the Group handles areas where decisions can be made collectively on behalf of all the units (such as procurement, strategy and branding).
+</p>
+<h3>Objective</h3>
+<p>
+In 2013 I was part of a Digital IT team operating within this executive unit of the Co-operative Group. We were enlisted by the Co-operative Food business unit to design a new digital artefact for customers to use. It was decided it should take the form of a responsive web app and a native iOS and Android app. All artefacts, it was decided, should employ user experience principles and methods to meet the needs of our business stakeholders.
+ </p>
+<h3>Business Goals</h3>
+<p>
+Firstly I examined what I felt were the overall business goals the Co-operative Food possessed:
+</p>
+<p>
+Firstly, brand reputation has a huge impact on any supermarket chain’s profitability; therefore Co-operative Food has to invest a lot of time and capital in its brand image amongst the public. It is continually seeking to promote its brand and ethical values.</p>
+<p>
+Second, it needs to aggressively drive public footfall into its food shops. The UK food retail industry is crowded and competitive. This has intensified in the last five years as discount supermarkets such as Aldi and Lidl have disrupted the 'big four' (Tesco, Sainsbury's, Asda, Morrison's) by providing a comparable level of quality but at far lower cost. Co-operative Food's position in the market is somewhere behind Morrison's, so the rise of the discounters is particularly troubling. One advantage to the Group is that it has arguably the highest area coverage across the UK of any food retailer; it allegedly has a shop in every single postal code area.
+</p>
+<p>
+Thirdly, the Co-operative Group has historically been slow in its adoption of new technology and process improvement practices. Platforms such as social media, big data/analytics, native phone apps, and mobile websites are all areas that other retailers have enthusiastically engaged with; so far, Co-op has failed to do this. This is due in part to the company's refusal to abandon the stereotype of its typical customer base of older, more conventional customers who struggle to understand or engage with technology. Other businesses are rapidly showing this assumption to be false, so the Co-op needs to rush to adopt digital platforms or it will begin to fall even further behind its competitors.
+</p>
+<p>
+Now that we have established a number of Co-operative Food’s high-level business goals, how can we translate these into measurements that we can use to assess potential performance of a new app?
+ </p>
+<p>
+If we wanted to focus solely on the website (as this is the main focus of this study) then we need to decide what sort of behaviours we are seeking to encourage in people who visit the site. For example – do we just want to encourage people to spend as much time on the site as possible? Do we want them to complete certain very specific actions?
+</p>
+<p>
+I have repeated this process of analysis with each of the goals above, providing several key performance indicators (KPIs) for each:
+</p>
+<p>
+Improve brand awareness:
+Average time spent on website per user.
+Average number of page-views per unique session.
+Bounce rate (percentage of users who leave a site without interacting with the first page they landed on).
+Increase number of visitors to shops:
+Number of website users enquiring about an Co-op Food shop.
+Customer satisfaction surveys.
+Number of online check-ins at a shop.
+</p>
+<p>
+It is worth noting at this stage that not all of the business KPIs I have mentioned above, can in fact be measured using Google Analytics (GA) or any other analytics platform of choice. Social metrics such as likes, retweets and repins are good examples of metrics that are strong indicators of a brand’s strength and market position, yet despite being mentioned in our measurement plan, our GA implementation will not be able to deliver on. Nevertheless, it is always good practice to highlight such metrics in our plans for later consideration. 
+</p>
+<p>
+After considering the business objectives in detail and how to measure them, we must also remember that the users’ objectives will not always be the same. Our primary concern as an organisation may be the achievement of our business objectives, but as a UX practitioner, if we fail to make it easy for users to achieve their specific goals, our business will suffer as a result.
+</p>
+<h3>Research</h3>
+<img src="" alt="Insert some pictures from Co-op Food stores here...">
+<h3>User Testing</h3>
+<p>
+At numerous intervals during the product’s development, my team and I held user feedback sessions with members of staff and the public. We employed various methods to enlist random strangers; these included stopping employees on their way into work in the Co-operative Group’s head office, and asking them to use and evaluate the prototype product (they were compensated for their time with a free coffee voucher!)
+</p>
+<p>
+The testing aimed to answer several questions:
 
-        </ul>
-      </section>
+How easy is it for users to achieve certain tasks?
+How does the app compare to the performance of other apps?
+What would you change?
+What additional features would you want the app to have?
+</p>
+<img src="img/Food_app_testing_sheets" alt="Testing sheets for the new app">
+
+<img src="img/Food_app_user_testing_photos" alt="Photos of me testing the new app with the public">
+
+<h3>Design Suggestion</h3>
+<p>
+The user testing I did was extremely valuable, and produced several valuable lessons.
+</p>
+<p>These findings led me to several important conclusions about users' goals and desires when using such a product.
+<p>
+<p>Based on these conclusions, I then began to sketch out ideas for a customer journey within a mobile phone app. These initial sketches and ideas can be seen below.
+</p>
+<img src="img/landscape1.jpg" alt="Hand-sketched design for the new app number 1">
+<img src="img/landscape2.jpg" alt="Hand-sketched design for the new app number 2">
+
+<p>
+Based on the above findings, I have produced visual designs for the Co-operative Food’s native app. The user journey begins with a splash screen that they see when they first open the native app, having downloaded it from the Apple/Google Play Store.
+</p>
+<img src="img/screenshot1.png" alt="Set 1 photoshop designs for the new app">
+<p>
+Once inside the app, they are greeted by a landing page that promotes several current in-store deals, but also has a 'hero' banner promoting specific recipes that can be made using ingredients on sale in Co-operative Food stores.
+</p>
+<img src="img/screenshot2.png" alt="Set 2 photoshop designs for the new app">
+<p>
+The alternative 'hero' banner in the designs is based around a specific seasonal event: in the design shown here, it is promoting Valentine's Day. Clicking on this element will take the user to a new screen containing specific deals related to that seasonal event.
+</p>
+<img src="img/screenshot3.png" alt="Set 3 photoshop designs for the new app">
+<p>
+The app also gives users the ability to sign up/sign in. Signing in gives them access to several more advanced features - in this example, the ability to either create a shopping list of items, or to mark specific deals as "Favourites". Each deal has a small call to action (CTA) resembling a star next to it, which allows signed in users to add it to their list of favourites. If the user clicks the star CTA without first signing in, then they are prompted to do so.
+</p>
+<img src="img/screenshot4.png" alt="Set 4 photoshop designs for the new app">
+<p>
+The main change features of the new design are as follows:
+
+Insert list of changes here.
+Change two
+Change three
+Etc
+</p>
+
+<p>
+Also, I produced a clickable prototype using these designs, which can be accessed at MarvelApp using the following
+<a style="color: blue" href="https://marvelapp.com/1719139">link</a>.
+</p>
+</div><!--Co-op-->
+<div id="PushDr" style="display: none">
+<h3 style="text-decoration: underline">Case-study - Push Doctor</h3>
+<p>
+In this case study, I will recount some of the work I have recently been involved with whilst working for Push Doctor.
+</p>
+<h3>Background</h3>
+<p>
+  The Push Doctor core product
+</p>
+</div><!--PushDr-->
       <footer>
+        <a href="index.html#top" style="display: block; margin: 20px">Back to top</a>
         <a href="http://twitter.com/thomasemmerson"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
         <a href="http://facebook.com/tomemmerson1"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
         <p class="text-muted">&copy; Tom Emmerson 2013 - present. Images used with permission. All rights reserved.</p>

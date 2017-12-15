@@ -94,7 +94,7 @@ footer {
   font-size: 0.75em;
   text-align: center;
   clear: both;
-  padding-top: 50px;
+  padding-top: 20px;
   color: #aaa;
 }
 
@@ -114,6 +114,7 @@ PAGE: PORTFOLIO
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align:center;
 }
 
 #gallery li {
@@ -140,7 +141,7 @@ PAGE: ABOUT
 .profile-photo {
   display: block;
   max-width: 150px;
-  margin: 0 auto 30px;
+  margin: 0 auto 0 auto;
   border-radius: 100%;
 }
 
@@ -203,9 +204,13 @@ nav {
 
 /* logo text */
 h1, h2 {
-  color: #fff;
+  color: #a3a3a3;
 }
 
+table td, th {
+  border: 1px solid #ddd;
+  vertical-align: top
+}
 /* links */
 a {
   color: #0b68a2;
