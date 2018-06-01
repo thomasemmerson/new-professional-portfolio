@@ -1,130 +1,163 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tom Emmerson</title>
-    <link rel="shortcut icon" href="img/profile.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-      <a href="index.html" id="logo">
-        <h1 style="color: white">Tom Emmerson</h1>
- 
-      </a>
-      <nav id="top">
-        <ul>
-          <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html" class="">About</a></li>
-          <!--<li><a href="process.html" class="">Process</a></li> -->          
-        </ul>
-      </nav>
-    </header>
+	<head>
+		<meta charset="utf-8">
+		<title>Tom Emmerson</title>
+		<link rel="shortcut icon" href="img/profile.png" type="image/x-icon">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link href='http://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<header>
+			<a href="index.html" id="logo"><h1 style="color: white">Tom Emmerson</h1></a>
+			<nav id="top" style="">
+				<ul>
+					<li><a href="index.html" class="selected">Portfolio</a></li>
+					<li><a href="about.html" class="">About</a></li>
+					<!--<li><a href="process.html" class="">Process</a></li> -->          
+				</ul>
+			</nav>
+		</header>
         <div id="wrapper">
+			<section>
+				<ul id="gallery">
+					<li>
+						<p>The client:<br>HRonline</p>
+						<a href="index.html#HRonline">
+							<img src="img/HRonline.png" alt="HRonline portfolio icon">
+							<p>The problem: New features needed to prevent client lapses.</p>
+						</a>
+					</li>
+					<li>
+						<p>The client:<br>Co-op Food</p>
+						<a href="index.html#Co-op">
+							<img src="img/coopfood.png" alt="The Co-op Food mobile user journey">
+							<p>The problem: Need to increase public footfall into retail stores.</p>
+						</a>
+					</li>
+					<li>
+						<p>The client:<br>Oxfam</p>
+						<a href="index.html#Oxfam">
+							<img src="img/oxfam-thumbnail.png" alt="Oxfam portfolio icon">
+							<p>The problem: Public donations falling year on year.</p>
+						</a>
+					</li>
+					<li style="display: none">
+						<a href="index.html#PushDr">
+						  <img src="img/numbers-06.jpg" alt="">
+						  <p>Providing repeat prescriptions with Push Doctor.</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+		</div><!--end of wrapper div-->
+		
+		<div id="wrapper">
+			<div id="accordion">
+				<div id="HRonline" style="display: "><!--start of HRonline section-->
+					<h3 style="clear: both; text-decoration: underline; text-align: left">Case-study - HRonline</h3>
+						<div class="card">
+							<div class="card-header" id="section1heading1">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseOne" aria-expanded="false" aria-controls="section1collapseOne">
+									<h3>1. Background</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseOne" class="collapse hide" aria-labelledby="section1heading1" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>Between 2015 and 2017 I worked for HRonline, which provided cloud-based HR management software for a large base of companies. HRonline began life as an in-house product designed and built by the parent company, Peninsula Business Services. Originally, HRonline was just used by PBS to keep track of its own workforce, but eventually the managers realised that as a free-standing product, they could lease it to clients as part of a package of services. These client companies ranged from small, self-employed groups of tradesmen with less than 10 employees, to large enterprises with several thousand. Each of these companies had very different requirements for their HR software.</p>
+									<p>After initially enjoying an enthusiastic reception to the launch of HRonline, and developing a specific set of features, Peninsula began building a successor product called BrightHR, which was tailored toward a significantly smaller and more defined audience - companies with between 50 to 250 employees.</p>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseOne-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section1heading2">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseTwo" aria-expanded="false" aria-controls="section1collapseTwo">
+									<h3>2. The problem</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseTwo" class="collapse hide" aria-labelledby="section1heading2" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>When BrightHR was created and developed, an entirely new team of UX Designers and Developers was recruited to lead and participate in its creation. However, during the same period, HRonline continued to be sold and maintained, and serviced approximately 8,000 clients.</p>
+									<p>During this period, because the main UX team was solely focused on developing BrightHR, I was expected to lead the UX design and requirements analysis for HRonline. This involved leading a team of designers and developers to ascertain what improvements and additional features would prove the most helpful and effective for our diverse range of clients.</p>
+									<p>Throughout this period, these clients continued to expect new features and functionality to be developed at the same pace as before. It was therefore necessary to carry out research, idea generation and testing, drawing together customer feedback, ideas and requests, and from the ensuing list derive a backlog of changes that would prove most effective if made to the product.</p>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseTwo-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section1heading3">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseThree" aria-expanded="false" aria-controls="section1collapseThree">
+									<h3>3. Objectives</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseThree" class="collapse hide" aria-labelledby="section1heading3" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>Once I had been assigned sole responsibility for HRonline, it became clear the objective of this project was to enhance the product with extra features that would dramatically improve the users' experience, increase the rate of usage of the product, and make its renewal more attractive to its customers, many of whom also had a range of services purchased through Peninsula as well as HRonline.</p>
+									<p>To do this, my team and l followed a holistic UX approach, beginning with problem definition, before progressing into broad research and finally conducting a design sprint with the intention to ‘build-measure-learn’.</p>
+									<p>The output of the entire project process was an agreed set of documentation for development - taking the form of high-fidelity visual designs, accompanied by detailed written requirements. By the point that these were produced, they had been through an iterative process which had seen them validated several times as lower-fidelity prototypes and mockups.</p>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseThree-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section1heading4">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseFour" aria-expanded="false" aria-controls="section1collapseFour">
+									<h3>4. Business goals</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseFour" class="collapse hide" aria-labelledby="section1heading4" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>As stated above, my team and I wanted to add new features in order to make the product more attractive to its users. We decided that we would employ a number of business key performance indicators to measure this. Specifically, we agreed we would measure the following:</p>
+									<ul>
+										<li>
+											Firstly, retention rate which would be measured by:
+											<ul>
+												<li>
+													Number of clients retained month to month.
+												</li>
+												<li>
+													Number of clients a month versus the same month of the previous year.
+												</li>
+												<li>
+													Number of users retained via the same measures.
+												</li>
+												<li>
+													Financial amount of revenue retained using the same measures.
+												</li>
+											</ul>
+										</li>
+										<li>
+											Secondly, general rates of usage, which would include metrics such as:
+											<ul>
+												<li>
+													Number of unique users from week to week.
+												</li>
+												<li>
+													Number of unique users in a week, versus the same week of the previous year.
+												</li>
+												<li>
+													Average time spent logged in per session, per user.
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<p>The software allowed the development team to effectively decouple deployment to the live environment, and releasing a feature to clients. Therefore once a feature had been deployed, using so-called 'feature switches’ the development team was able to manually 'toggle on’ this feature for only a select list of clients.</p>
+									<p>This approach allowed the design team to design a feature, have it developed and deployed by our technical team - but to a limited audience - and then compare specific metrics for that group to a so-called 'control group’ that had not received the feature. This allowed us to scientifically measure the impact of our designs on the client-base.</p>
+									<p>In terms of what specific features should be developed, the business stakeholders suggested that one feature in particular that they believed would be valuable to clients was an in-built task management feature, that was similar to existing apps such as Wrike or Asana. Accordingly, I decided to plan and conduct my research with particular emphasis placed upon discussing and validating whether a feature of this nature would be valuable.</p>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseFour-->
+						</div><!--end of card-->
 
-      <section>
-        <ul id="gallery">
-                  <li>
-            <p>The client:<br>HRonline</p>
-            <a href="index.html#HRonline">
-              <img src="img/HRonline.png" alt="HRonline portfolio icon">
-              
-              <p>The problem: New features needed to prevent client lapses.</p>
-            </a>
-          </li>
-
-          <li>
-                  <p>The client:<br>Co-op Food</p>
-            <a href="index.html#Co-op">
-              <img src="img/coopfood.png" alt="The Co-op Food mobile user journey">
-              <p>The problem: Need to increase public footfall into retail stores.</p>
-            </a>
-          </li>
-          
-          <li>
-            <p>The client:<br>Oxfam</p>
-            <a href="index.html#Oxfam">
-              <img src="img/oxfam-thumbnail.png" alt="Oxfam portfolio icon">
-              
-              <p>The problem: Public donations falling year on year.</p>
-            </a>
-          </li>
-          
-
-          <li style="display: none">
-            <a href="index.html#PushDr">
-              <img src="img/numbers-06.jpg" alt="">
-              <p>Providing repeat prescriptions with Push Doctor.</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <!--start of HRonline section-->
-<div id="HRonline" style="display: ">
-<h3 style="clear: both; text-decoration: underline; text-align: left">Case-study - HRonline</h3>
-  <h3>Background</h3>
-
-<p>Between 2015 and 2017 I worked for HRonline, which provided cloud-based HR management software for a large base of companies. HRonline began life as an in-house product designed and built by the parent company, Peninsula Business Services. Originally, HRonline was just used by PBS to keep track of its own workforce, but eventually the managers realised that as a free-standing product, they could lease it to clients as part of a package of services. These client companies ranged from small, self-employed groups of tradesmen with less than 10 employees, to large enterprises with several thousand. Each of these companies had very different requirements for their HR software.</p>
-<p>After initially enjoying an enthusiastic reception to the launch of HRonline, and developing a specific set of features, Peninsula began building a successor product called BrightHR, which was tailored toward a significantly smaller and more defined audience - companies with between 50 to 250 employees.</p>
-  <h3>The problem</h3>
-
-<p>When BrightHR was created and developed, an entirely new team of UX Designers and Developers was recruited to lead and participate in its creation. However, during the same period, HRonline continued to be sold and maintained, and serviced approximately 8,000 clients.</p>
-
-<p>During this period, because the main UX team was solely focused on developing BrightHR, I was expected to lead the UX design and requirements analysis for HRonline. This involved leading a team of designers and developers to ascertain what improvements and additional features would prove the most helpful and effective for our diverse range of clients.
-  Throughout this period, these clients continued to expect new features and functionality to be developed at the same pace as before. It was therefore necessary to carry out research, idea generation and testing, drawing together customer feedback, ideas and requests, and from the ensuing list derive a backlog of changes that would prove most effective if made to the product.</p>
-  
-
-<h3>Objectives</h3>
-<p>Once I had been assigned sole responsibility for HRonline, it became clear the objective of this project was to enhance the product with extra features that would dramatically improve the users' experience and make renewal more attractive to its customers.</p>
-
-<p>To do this, my team and l followed a holistic UX approach, beginning with problem definition, before progressing into broad research and finally conducting a design sprint with the intention to ‘build-measure-learn’.</p>
-
-<p>The output of the entire project process was an agreed set of documentation for development - taking the form of high-fidelity visual designs, accompanied by detailed written requirements. By the point that these were produced, they had been through an iterative process which had seen them validated several times as lower-fidelity prototypes and mockups.</p>
-<h3>Business goals</h3>
-<p>As stated above, my team and I wanted to add new features in order to make the product more attractive to its users. We decided that we would employ a number of business key performance indicators to measure this. Specifically, we agreed we would measure the following:</p>
-<ul>
-<li>
-Firstly, retention rate which would be measured by:
-<ul>
-<li>
-Number of clients retained month to month.
-</li>
-<li>
-Number of clients a month versus the same month of the previous year.
-</li>
-<li>
-Number of users retained via the same measures.
-</li>
-<li>
-Financial amount of revenue retained using the same measures.
-</li>
-</ul>
-</li>
-<li>
-Secondly, general rates of usage, which would include metrics such as:
-<ul>
-<li>
-Number of unique users from week to week.
-</li>
-<li>
-Number of unique users in a week, versus the same week of the previous year.
-</li>
-<li>Average time spent logged in per session, per user.</li>
-</ul>
-</li>
-</ul>
-
-<p>The software allowed the development team to effectively decouple deployment to the live environment, and releasing a feature to clients. Therefore once a feature had been deployed, using so-called 'feature switches’ the development team was able to manually 'toggle on’ this feature for only a select list of clients.</p>
-
-<p>This approach allowed the design team to design a feature, have it developed and deployed by our technical team - but to a limited audience - and then compare specific metrics for that group to a so-called 'control group’ that had not received the feature. This allowed us to scientifically measure the impact of our designs on the client-base.</p>
-
-<p>In terms of what specific features should be developed, the business stakeholders suggested that one feature in particular that they believed would be valuable to clients was an in-built task management feature, that was similar to existing apps such as Wrike or Asana. Accordingly, I decided to plan and conduct my research with particular emphasis placed upon discussing and validating whether a feature of this nature would be valuable.</p>
-<h3>Research</h3>
-
+						<div class="card">
+							<div class="card-header" id="section1heading5">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseFive" aria-expanded="false" aria-controls="section1collapseFive">
+									<h3>5. Research</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseFive" class="collapse hide" aria-labelledby="section1heading5" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>Before making any changes to the HRonline product, first I needed to carry out research into the client-base and the proposed features. My research took several forms accordingly.</p>
 
 <ul>
@@ -227,7 +260,17 @@ Number of unique users in a week, versus the same week of the previous year.
 <p>Therefore, in order to construct this prototype, and especially to do so using as little time, resource and money as is necessary, I created hand-drawn sketches of how I envisaged the feature would look - similar to the effect that would have been created if I had used a tool such as Balsamiq - scanned them electronically, and then linked them together in a so-called 'clickable prototype'. (I could have used one of several tools for this task, including InVision, Pop or Marvel; I chose to use Marvel out of personal preference.) Once this was complete, I essentially had a working prototype of a new, as-yet undeveloped task manager feature, that I could test out with interviewees. Because it was clickable, when the user clicked on various sections of each page, the prototype would respond accordingly just like a finished product would.</p>
 
 <p>Creating and then showing people an “MVP” in this manner was a great way to quickly and cheaply test and validate assumptions that I was making about a product feature.</p>
-<h3>Lessons and common findings</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseFive-->
+						</div><!--end of card-->			
+						<div class="card">
+							<div class="card-header" id="section1heading6">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseSix" aria-expanded="false" aria-controls="section1collapseSix">
+									<h3>6. Lessons and common findings</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseSix" class="collapse hide" aria-labelledby="section1heading6" data-parent="#accordion" style="">
+								<div class="card-body">
 <h4>Task management feature - validation</h4>
 <p>Firstly, a large portion of my survey respondents indicated that a task management function would in fact be useful to them, and to their staff.</p>
 
@@ -259,8 +302,17 @@ Number of unique users in a week, versus the same week of the previous year.
 <img src="img\persona_2-3.png" alt="Customer persona 2 page number 3">
 <img src="img\persona_2-4.png" alt="Customer persona 2 page number 4">
 <p>I decided that the same assessment that I recorded for customer persona 1 would also apply to persona 2; i.e. either the “Getting Things Done (GTD)” style app for detailed task lists; or, a plain text app would be most suitable.</p>
-
-<h3>Ideation</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseSix-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section1heading7">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseSeven" aria-expanded="false" aria-controls="section1collapseSeven">
+									<h3>7. Ideation</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseSeven" class="collapse hide" aria-labelledby="section1heading7" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>I decided that the best way to launch a simple version of a task management feature would be to make it as simple as possible, whilst simultaneously giving users of the feature as much control as possible.</p>
 
 <p>This meant designing the initial version to be as quick and intuitive to use as possible. This was done using a number of design decisions.</p>
@@ -288,16 +340,39 @@ Number of unique users in a week, versus the same week of the previous year.
   <li>Custom fields - what if I want each of my tasks to hold an item of data that doesn't fit with any of the existing fields belonging to the task.</li>
   <The ability to add check-lists to tasks, to allow the user to tick off a range of specific actions/tasks.</li>
   </ul>  
-<h3>Design suggestions</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseSeven-->
+						</div><!--end of card-->
+						
+						<div class="card">
+							<div class="card-header" id="section1heading8">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseEight" aria-expanded="false" aria-controls="section1collapseEight">
+									<h3>8. Design suggestions</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseEight" class="collapse hide" aria-labelledby="section1heading8" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>Having concluded my research, and having drawn several conclusions from the work, I now set about brainstorming a range of user interface solutions.</p>
 <ul>
 <li>The new task manager feature needs to visually and aesthetically fit with the rest of the project, even though it is a new feature.</li>
 <li>The feature needs to be responsive, as the rest of the product is (i.e. it needs to adapt appropriately to different-sized viewports, devices and browsers).</li>
 <li>Any task management feature needs to be intuitive to use. The entire purpose of the new feature is to save users time and effort; therefore, it must behave effortlessly and anticipate their most common intentions.</li>
 <li>The new feature needs to take advantage of the existing analytics package in use throughout the rest of the product (at the time of writing, Google Analytics). This is in order to track time spent on each page and the number of keystrokes committed by each user, so that the feature can be improved iteratively.</li>
-</ul>
-
-<h3>Solution</h3>
+</ul
+</p>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseEight-->
+						</div><!--end of card-->
+						
+						
+						<div class="card">
+							<div class="card-header" id="section1heading9">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseNine" aria-expanded="false" aria-controls="section1collapseNine">
+									<h3>9. Solution</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseNine" class="collapse hide" aria-labelledby="section1heading9" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>As stated above, the "lean startup" methodology encourages the use of a so-called "minimum viable product", or MVP, which is an experiment designed to prove or disprove an assertion for the smallest investment of time, money and resources. Having created a set of wireframes and tested them with early users, I chose to continue this approach by selecting a sub-set of requirements and building these into a first release.</p><p>The intention was that a secondary release would follow soon after, and that this would build on the lessons learnt from customer feedback on the first release. By dividing the requirements into several releases, instead of building a fully-functional, all-encompassing solution and launching it in one, I enabled the development team to build and release the first iteration quickly, and kept the focus of the trial narrow so as to allow feedback to be more directed and targeted.<p>
 <p>The requirements for the first version of the task management feature contained the following main features:</p>
 
@@ -334,35 +409,102 @@ Number of unique users in a week, versus the same week of the previous year.
 
 <p>As an aside - during the creation of the high-fidelity designs, it became clear to me that it would greatly benefit me to be able to quickly refer to a range of design standards and templates. To this end, I created a relatively small, single-page brand asset style guide.</p>
 <img src="img\HRonline_Brand_Guidlines.png" alt="HRonline brand and style-guide">
-<p>I tried to keep the style guide clean and simple, but yet at the same time be comprehensive enough that it would prove to be extremely useful whenever I subsequently needed to crate or assemble more visual assets for this product or its new features.</p>
+<p>I tried to keep the style guide clean and simple, but yet at the same time be comprehensive enough that it would prove to be extremely useful whenever I subsequently needed to create or assemble more visual assets for this product or its new features.</p>
 
-<h3>Conclusion</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseNine-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section1heading10">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section1collapseTen" aria-expanded="false" aria-controls="section1collapseTen">
+									<h3>10. Conclusion</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section1collapseTen" class="collapse hide" aria-labelledby="section1heading10" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>As stated above, the first release and the features specified within it, were only the first of several planned iterations. The advantage of frequent, smaller releases is far greater flexibility and the opportunity to benefit from earlier and more regularly-occurring feedback points.</p>
 <p>After the first release of the task management feature - which was only released to a sub-set of clients - as discussed earlier, we monitored several key performance indicators for both that group and for a so-called 'control group' of clients that had <i>not</i> received the new feature.</p>
 <p>What we observed was that after launch, the task manager feature experienced a great deal of immediate attention and usage from those clients. This was encouraging: it meant that those clients were interested in the feature, and this further corroborated our earlier research suggesting that a feature of this nature would fit in well and be enthusiastically received.</p>
 <p>However, after a month or so, we realised that it was more difficult to track whether there had been a statistically relevant difference in retention rate between the clients receiving the feature and the control group. We <i>did</i> however observe that the average time spent in the product rose significantly amongst those clients with the feature compared to those without.</p>
 <p>From this data, we were prepared to conclude that the addition of the task feature to a client's product <i>did</i> in fact have a net positive affect on that client's behaviour and interaction with the product.</p>
 <p>Going forward from this initial release, the team were encouraged by this early success. Following this assessment, we continued to iterate on the structure and functionality within the task manager feature, and continued to use key performance indicators to assess whether those changes had a positive impact on the clients receiving the feature or not.</p>
+
+
+								</div><!--end of card-body-->
+							</div><!--end of section1collapseTen-->
+						</div><!--end of card-->
+</div><!--end of hronline div-->
+</div><!--end of wrapper div-->
+
+
 <a href="index.html#top" style="display: block; margin: 20px; text-align: center">Back to top</a>
 </div><!--end of HRonline section-->
      
+</div><!--end of accordion-->
+		<!--start of cooperative food section-->
+		<div id="wrapper">
+			<div id="accordion">
+
 <div id="Co-op"><!--the co-operative food section-->
 <h3 style="text-align: left; text-decoration: underline">Case-study - The Co-operative Food</h3>
-<p>
-In this case study, I will recount the work I was involved in when I worked for the Co-operative Group several years ago.
-</p>
-<h3>The problem</h3>
-<p>
-The Co-operative Wholesale Society (CWS) has been in existence since 1863, and celebrated its 150-year anniversary in 2013. Throughout this period, the society has sought to operate in an ethical and sustainable fashion. Whilst this has meant the business has grown consistently and reliably, it has also lagged behind new developments in technology and supply chain efficiency as a result.
-</p>
-<p>
-In the last decade, the Co-operative Group was formed to preside over the Co-operative portfolio of companies - a group including a food division, legal, insurance, electrical goods, and travel amongst others. Whilst operational and day-to-day business decisions remain with each business unit, the Group handles areas where decisions can be made collectively on behalf of all the units (such as procurement, strategy and branding). Whilst this reorganisation has allowed the Co-operative Group to centralise much of its decision-making, it has also rendered much of the organisation too conservative, stagnant and unwilling to keep up-to-date with the latest developments in technology. This has had a knock-on effect on its ability to effectively market to customers, and this in turn has negatively impacted its share of the food retail market.
-</p>
-<h3>Objectives</h3>
-<p>
-In 2013 I was part of a Digital IT team operating within this executive unit of the Co-operative Group. We were enlisted by the Co-operative Food business unit to design a new digital artefact for customers to use. It was decided it should take the form of a responsive web app and a native iOS and Android app. All artefacts, it was decided, should employ user experience principles and methods to meet the needs of our business stakeholders.
- </p>
-<h3>Business goals</h3>
+						<div class="card">
+							<div class="card-header" id="section2heading1">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapseOne" aria-expanded="false" aria-controls="section2collapseOne">
+									<h3>1. Background</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapseOne" class="collapse hide" aria-labelledby="section2heading1" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>
+										In this case study, I will recount the work I was involved in when I worked for the Co-operative Group several years ago.
+									</p>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapseOne-->
+						</div><!--end of card-->
+						
+
+						<div class="card">
+							<div class="card-header" id="section2heading2">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapseTwo" aria-expanded="false" aria-controls="section2collapseTwo">
+									<h3>2. The problem</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapseTwo" class="collapse hide" aria-labelledby="section2heading2" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>
+										The Co-operative Wholesale Society (CWS) has been in existence since 1863, and celebrated its 150-year anniversary in 2013. Throughout this period, the society has sought to operate in an ethical and sustainable fashion. Whilst this has meant the business has grown consistently and reliably, it has also lagged behind new developments in technology and supply chain efficiency as a result.
+									</p>
+									<p>
+										In the last decade, the Co-operative Group was formed to preside over the Co-operative portfolio of companies - a group including a food division, legal, insurance, electrical goods, and travel amongst others. Whilst operational and day-to-day business decisions remain with each business unit, the Group handles areas where decisions can be made collectively on behalf of all the units (such as procurement, strategy and branding). Whilst this reorganisation has allowed the Co-operative Group to centralise much of its decision-making, it has also rendered much of the organisation too conservative, stagnant and unwilling to keep up-to-date with the latest developments in technology. This has had a knock-on effect on its ability to effectively market to customers, and this in turn has negatively impacted its share of the food retail market.
+									</p>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapseTwo-->
+						</div><!--end of card-->
+						
+						<div class="card">
+							<div class="card-header" id="section2heading3">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapseThree" aria-expanded="false" aria-controls="section2collapseThree">
+									<h3>3. Objectives</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapseThree" class="collapse hide" aria-labelledby="section2heading3" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>
+										In 2013 I was part of a Digital IT team operating within this executive unit of the Co-operative Group. We were enlisted by the Co-operative Food business unit to design a new digital artefact for customers to use. It was decided it should take the form of a responsive web app and a native iOS and Android app. All artefacts, it was decided, should employ user experience principles and methods to meet the needs of our business stakeholders.
+									 </p>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapseThree-->
+						</div><!--end of card-->
+						
+
+						<div class="card">
+							<div class="card-header" id="section2heading4">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapse4" aria-expanded="false" aria-controls="section2collapse4">
+									<h3>4. Business goals</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapse4" class="collapse hide" aria-labelledby="section2heading4" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>
 Firstly I examined what I felt were the overall business goals the Co-operative Food possessed:
 </p>
@@ -411,7 +553,17 @@ I repeated this process of analysis with each of the goals above, providing seve
 <p>
 After considering the business objectives in detail and how to measure them, we must also remember that the users’ objectives will not always be the same. Our primary concern as an organisation may be the achievement of our business objectives, but as a UX practitioner, if we fail to make it easy for users to achieve their specific goals, our business will suffer as a result.
 </p>
-<h3>Research</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapse4-->
+						</div><!--end of card-->	
+						<div class="card">
+							<div class="card-header" id="section2heading5">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapse5" aria-expanded="false" aria-controls="section2collapse5">
+									<h3>5. Research</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapse5" class="collapse hide" aria-labelledby="section2heading5" data-parent="#accordion" style="">
+								<div class="card-body">
 <div>
 <img src="img/New-branding-Coop-Food-High-St-Manchester2.jpg" alt="Picture from Co-op Food store 1">
   <p>I visited several Co-operative Food physical store locations in order to better understand the user journey that customers experienced, following their visit to the website.
@@ -427,25 +579,49 @@ After considering the business objectives in detail and how to measure them, we 
 </div>
 <img src="img/Screen Shot 2018-01-03 at 08.19.10.png" alt="Good Food Magazine recent covers">
 <p>I reviewed several different 'foodie' magazines, as these offer a combination of attractive ingredients and deals, alongside quick and convenient recipes.</p>
-<h3>Testing</h3>
-<p>
-At numerous intervals during the product’s development, my team and I held user feedback sessions with members of staff and the public. We employed various methods to enlist random strangers; these included stopping employees on their way into work in the Co-operative Group’s head office, and asking them to use and evaluate the prototype product (they were compensated for their time with a free coffee voucher!)
-</p>
-<p>
-The testing aimed to answer several questions:
-</p>
-<ul>
-  <li>
-How easy is it for users to achieve certain tasks?</li>
-<li>
-How does the app compare to the performance of other apps?</li>
-<li>
-What would you change?</li>
-<li>
-What additional features would you want the app to have?
-</li>
-</ul>
-<h3>Design Suggestion</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapse5-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section2heading6">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapse6" aria-expanded="false" aria-controls="section2collapse6">
+									<h3>6. Testing</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapse6" class="collapse hide" aria-labelledby="section2heading6" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>
+										At numerous intervals during the product’s development, my team and I held user feedback sessions with members of staff and the public. We employed various methods to enlist random strangers; these included stopping employees on their way into work in the Co-operative Group’s head office, and asking them to use and evaluate the prototype product (they were compensated for their time with a free coffee voucher!)
+									</p>
+									<p>
+										The testing aimed to answer several questions:
+									</p>
+									<ul>
+										<li>
+											How easy is it for users to achieve certain tasks?
+										</li>
+										<li>
+											How does the app compare to the performance of other apps?
+										</li>
+										<li>
+											What would you change?
+										</li>
+										<li>
+											What additional features would you want the app to have?
+										</li>
+									</ul>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapse6-->
+						</div><!--end of card-->
+						
+						<div class="card">
+							<div class="card-header" id="section2heading7">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapse7" aria-expanded="false" aria-controls="section2collapse7">
+									<h3>7. Design Suggestion</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapse7" class="collapse hide" aria-labelledby="section2heading7" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>
 The user testing I did was extremely valuable, and produced several valuable lessons:
 </p>
@@ -514,48 +690,114 @@ The main change features of the new design are as follows:
 Also, I produced a clickable prototype using these designs, which can be accessed at MarvelApp using the following
 <a style="color: blue" href="https://marvelapp.com/1719139">link</a>.
 </p>
-<h3>Conclusion</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapse7-->
+						</div><!--end of card-->	
+
+						<div class="card">
+							<div class="card-header" id="section2heading8">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section2collapse8" aria-expanded="false" aria-controls="section2collapse8">
+									<h3>8. Conclusion</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section2collapse8" class="collapse hide" aria-labelledby="section2heading8" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>The Co-operative Food division is a retail brand with several unique and strong advantages. It has an extremely well-established and unique reputation as an ethical retailer, and a purveyor of quality products. It offers extremely convenient shop locations, with over 2,500 locations in the United Kingdom alone.</p>
 <p>For these reasons, during our tenure my team and I concluded the best way for the Co-operative to achieve its objectives of increased revenue and profitability was simply to emphasise these strengths as much as possible via its digital channels. This is something the Co-operative has failed to do in the past - it has focused on traditional, well-established supply chains and has neglected developing channels such as mobile and web. This needs to change if the Co-operative Food business is to survive and thrive.</p>
 <p>As part of this project, I designed responsive webpages that accentuate the quality and availability of the Co-operative's products. It also showcased them in the context of various seasonal deals, such as Christmas and Valentine's Day.</p>
 <p>If I were to expand further on this project, my next step would have been potentially be to further accentuate the convenience and availability of the Co-operative Food branches. Perhaps I could have done this by adding a prominent, easy-to-access store locator feature that used Google Maps or similar technology to showcase just how closeby each Co-op Food store was.</p>
 <p>Ultimately, the designs here represented just the first step in the Co-operative Food's journey to embrace digital media.<p>
+								</div><!--end of card-body-->
+							</div><!--end of section2collapse8-->
+						</div><!--end of card-->					
+</div>
+</div>
+
+
   <a href="index.html#top" style="display: block; margin: 20px; text-align: center">Back to top</a>
-</div><!--end of Co-operative Food-->
+</div><!--end of Co-operative Food div-->
+
  <div id="Oxfam"><!--start of oxfam section-->
+ <div id="wrapper"><!--start of oxfam wrapper-->
       <h3 style="clear: both; text-decoration: underline; text-align: left">Case-study - Oxfam homepage</h3>
-      <p>Oxfam is a confederation of numerous businesses and charities that operates throughout the developed and developing world. Its mission is to help some of the most deprived and vulnerable sections of society. As a large, multi-national organisation, Oxfam has a number of high-level business goals:</p>
+		
+						<div class="card">
+							<div class="card-header" id="section3heading1">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapseOne" aria-expanded="false" aria-controls="section3collapseOne">
+									<h3>1. Background</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapseOne" class="collapse hide" aria-labelledby="section3heading1" data-parent="#accordion" style="">
+								<div class="card-body">
+		<p>Oxfam is a confederation of numerous businesses and charities that operates throughout the developed and developing world. Its mission is to help some of the most deprived and vulnerable sections of society. As a large, multi-national organisation, Oxfam has a number of high-level business goals:</p>
         <ul>
           <li>It needs to curate its brand’s perception in the eyes of the public;</li>
           <li>it needs to keep driving donations in order to sustain a functioning business;</li>
           <li>and finally it needs to preserve its charity shop business, which provides a substantial amount of its annual revenue.</li>
         </ul>
-      <h3>The problem</h3>
-      <p>In modern society and the age of austerity that has dominated since 2008-2009, household budgets are shrinking year on year. This is being compounded by sustained inflation and wages that are rising at the same rate, gradually reducing take-home incomes over the long-term. In this environment, donations by the public to charities are shrinking - even amongst those with well-known and prestigious brands like Oxfam.</p>
-      <h3>Objectives</h3>
-      <p>I was approached by a friend who works for the organisation. They asked me to review Oxfam’s existing 'digital' (i.e. online) presence, from a user experience (UX) perspective; identify any existing pain points or areas of friction to users; to suggest ways to improve the UX; and finally to demonstrate how these suggestions will enable users to achieve their goals more easily as well as enabling Oxfam themselves to better achieve their business goals.</p>
-      <p>I produced a map to identify all the potential channels via which a customer might engage with the organisation. Of these, when I mapped them out, I found that the main website was by far the easiest and most cost-effective means of influencing customer habits and behaviour. See the below map for details.</p>
-      <h3>Business goals</h3><p>Using the map, I decided the most important part of the brief is to find ways to change the user experience that customers have with Oxfam’s webpage in order to stimulate a greater level of charitable donations, and therefore secure the long-term sustainability of the charity.</p>
-  <div>
-  <img src="img/user_map2.png" alt="User awareness channel map">
-  <p>
-  </p>
-</div>    
-      <p>The current Oxfam homepage at the time of this study is displayed below. It is a fairly effective, responsive website (i.e. it dynamically adjusts its shape and composition dependent upon the viewport meeting specific pre-determined breakpoints). It allows customers to perform a number of tasks:</p>
-<ul>
-  <li>Make donations.</li>
-  <li>Sign up to receive emails from Oxfam.</li>
-  <li>Find the locations of Oxfam clothes shops.</li>
-  <li>Find detailed information on Oxfam the charitable organisation.</li>
-</ul>
-<p>Therefore, these are the specific user tasks that I shall focus on and use to evaluate the effectiveness of the website.
-<div>
-  <img src="img/as-is-homepage.png" alt="As Is Homepage">
-  <p>
-  </p>
-</div>
+								</div><!--end of card-body-->
+							</div><!--end of section3collapseOne-->
+						</div><!--end of card-->
+						<div class="card">
+							<div class="card-header" id="section3heading2">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapseTwo" aria-expanded="false" aria-controls="section3collapseTwo">
+									<h3>2. The problem</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapseTwo" class="collapse hide" aria-labelledby="section3heading2" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>In modern society and the age of austerity that has dominated since 2008-2009, household budgets are shrinking year on year. This is being compounded by sustained inflation and wages that are rising at the same rate, gradually reducing take-home incomes over the long-term. In this environment, donations by the public to charities are shrinking - even amongst those with well-known and prestigious brands like Oxfam.</p>
+								</div><!--end of card-body-->
+							</div><!--end of section3collapseTwo-->
+						</div><!--end of card-->	
 
-<h3>Testing</h3>
+						<div class="card">
+							<div class="card-header" id="section3heading3">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapseThree" aria-expanded="false" aria-controls="section3collapseThree">
+									<h3>3. Objectives</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapseThree" class="collapse hide" aria-labelledby="section3heading3" data-parent="#accordion" style="">
+								<div class="card-body">
+							<p>I was approached by a friend who works for the organisation. They asked me to review Oxfam’s existing 'digital' (i.e. online) presence, from a user experience (UX) perspective; identify any existing pain points or areas of friction to users; to suggest ways to improve the UX; and finally to demonstrate how these suggestions will enable users to achieve their goals more easily as well as enabling Oxfam themselves to better achieve their business goals.</p>
+      <p>I produced a map to identify all the potential channels via which a customer might engage with the organisation. Of these, when I mapped them out, I found that the main website was by far the easiest and most cost-effective means of influencing customer habits and behaviour. See the below map for details.</p>
+								</div><!--end of card-body-->
+							</div><!--end of section3collapseThree-->
+						</div><!--end of card-->
+				
+						<div class="card">
+							<div class="card-header" id="section3heading4">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapse4" aria-expanded="false" aria-controls="section3collapse4">
+									<h3>4. Business goals</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapse4" class="collapse hide" aria-labelledby="section3heading4" data-parent="#accordion" style="">
+								<div class="card-body">
+									<p>Using the map shown below, I decided the most important part of the brief is to find ways to change the user experience that customers have with Oxfam’s webpage in order to stimulate a greater level of charitable donations, and therefore secure the long-term sustainability of the charity.</p>
+							
+									<img src="img/user_map2.png" alt="User awareness channel map">
+									<p>The current Oxfam homepage at the time of this study is displayed below. It is a fairly effective, responsive website (i.e. it dynamically adjusts its shape and composition dependent upon the viewport meeting specific pre-determined breakpoints). It allows customers to perform a number of tasks:</p>
+									<ul>
+									  <li>Make donations.</li>
+									  <li>Sign up to receive emails from Oxfam.</li>
+									  <li>Find the locations of Oxfam clothes shops.</li>
+									  <li>Find detailed information on Oxfam the charitable organisation.</li>
+									</ul>
+									<p>Therefore, these are the specific user tasks that I shall focus on and use to evaluate the effectiveness of the website.
+									<img src="img/as-is-homepage.png" alt="As Is Homepage">
+
+								</div><!--end of card-body-->
+							</div><!--end of section3collapse4-->
+						</div><!--end of card-->
+						
+						<div class="card">
+							<div class="card-header" id="section3heading5">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapse5" aria-expanded="false" aria-controls="section3collapse5">
+									<h3>5. Testing</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapse5" class="collapse hide" aria-labelledby="section3heading5" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>
 I gathered a group of users who did not have specific experience of using the website. I then asked each of them to complete certain key user tasks, corresponding to the list of key tasks outlined above. During the exercise I used handwritten sheets for each of the individual “usability reports” in the survey, to document the findings of each person in raw form.
 As previously mentioned, the tasks that I had them complete one at a time, without assistance, were as follows:
@@ -575,8 +817,23 @@ As previously mentioned, the tasks that I had them complete one at a time, witho
 <p>
 Following these usability sessions, I then interviewed the participants to collect their ideas on how to make the website more appealing and make it easier for users to achieve their goals.
 </p>
-<h3>Lessons and common findings</h3>
 
+
+
+	
+	
+								</div><!--end of card-body-->
+							</div><!--end of section3collapse5-->
+						</div><!--end of card-->
+						
+						<div class="card">
+							<div class="card-header" id="section3heading6">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapse6" aria-expanded="false" aria-controls="section3collapse6">
+									<h3>6. Lessons and common findings</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapse6" class="collapse hide" aria-labelledby="section3heading6" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>
 As a result of conducting this user testing, there are a number of potential suggestions that could be enacted.
 </p>
@@ -598,7 +855,20 @@ In general, there are too many fields and inputs present across the entire page.
 <li>Some testers suggested we consider demoting or entirely removing the option to register for an account with Oxfam, as it is too similar to signing up for email, but with confusingly different implications.</td>
 <li>Similarly to other links, some testers suggested we move the email sign-up panel to the top of the page so that it is more visible to users.</li>
 </ul>
-<h3>Ideation</h3>
+	
+	
+								</div><!--end of card-body-->
+							</div><!--end of section3collapse6-->
+						</div><!--end of card-->
+
+						<div class="card">
+							<div class="card-header" id="section3heading7">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapse7" aria-expanded="false" aria-controls="section3collapse7">
+									<h3>7. Ideation</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapse7" class="collapse hide" aria-labelledby="section3heading7" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>
 To help participants better formulate their ideas, I asked them to record them in written form. Secondly to encourage their creativity, I asked participants to convey their ideas using images, and also use the “rose, thorn, bud” format to elicit positive feedback, negative feedback and suggestions on which aspects of the idea possessed the most future potential.
 </p>
@@ -610,8 +880,23 @@ To help participants better formulate their ideas, I asked them to record them i
 </div>
 <p>
 Using this method, I was able to elicit  a large volume of divergent ideas and suggestions. This was entirely preferable  to producing a limited number  of suggestions myself, because there was no chance of my individual creativity  matching that of a large number of people. I then used these ideas as the basis for new webpage designs.
-</p>
-<h3>Solution</h3>
+</p>	
+	
+	
+								</div><!--end of card-body-->
+							</div><!--end of section3collapse7-->
+						</div><!--end of card-->
+						
+<!--this is how far ive got so far...-->      
+
+						<div class="card">
+							<div class="card-header" id="section3heading8">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapse8" aria-expanded="false" aria-controls="section3collapse8">
+									<h3>8. Solution</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapse8" class="collapse hide" aria-labelledby="section3heading8" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>The solution that emerged during the ideation stage, was that the key customer goals identified above should be accentuated, and emphasised to appear as prominently as possible.</p>
 <p>There are currently on the website too many options and calls to action, with the end result that a user's focus is diffused between all of them.</p>
 <p>Therefore the theme of any new design will be too reduce the number of CTAs and to accentuate them as much as possible.</p>
@@ -652,16 +937,34 @@ The final updated version of the homepage is displayed below. The following spec
   </p>
 </div>
 <p>Ultimately, I was able to present my friend who worked for Oxfam with a proposal for a set of changes that I believe based on testing will improve the effectiveness of their website, as well as designs setting out my specific suggestion for how the website should be repurposed to appear.
-<h3>
-Conclusion
-</h3>
+								</div><!--end of card-body-->
+							</div><!--end of section3collapse7-->
+						</div><!--end of card-->
+</div>						
+    
+
+						<div class="card">
+							<div class="card-header" id="section3heading9">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#section3collapse9" aria-expanded="false" aria-controls="section3collapse9">
+									<h3>9. Conclusion</h3>
+								</button>
+							</div><!--end of card-header-->
+							<div id="section3collapse9" class="collapse hide" aria-labelledby="section3heading9" data-parent="#accordion" style="">
+								<div class="card-body">
 <p>
 The Oxfam homepage has a number of vitally important user goals. These goals are overall reasonably easy to accomplish, but when tested with a group of users that had never used the site before, it was found that several elements of the site were arranged sub-optimally. The proposed new design above, is just one single suggestion of how the site could be altered in order to hopefully improve its performance and overall usability.</p><p>Following these design changes, I carried out more usability testing with new users, and found that the relative rate of success for the actions set out above was considerably more as a result.</p><p>However - this is only one of a myriad approaches that could be adopted. I recommend that the owners of this site implement A/B, or ‘split’ testing (by sending users at random to one of several different versions of the site, and then monitoring the overall usage analytics for each different site). This will allow them to experiment with several different changes to the arrangement of page elements, and quickly establish through the use of objective data which is most effective. I also recommend that the owners of the site be prepared to frequently re-test their site with new users, as frequent customer feedback is one of the most effective ways to continually optimise a website or piece of software.
 </p>
-<a href="index.html#top" style="display: block; margin: 20px; text-align: center">Back to top</a>
-</div><!--end of Oxfam section-->
+								</div><!--end of card-body-->
+							</div><!--end of section3collapse7-->
+						</div><!--end of card-->
 
-<div id="PushDr" style="display: none">
+
+<a href="index.html#top" style="display: block; margin: 20px; text-align: center">Back to top</a>
+
+
+
+
+<div id="PushDr" style="display: none"><!--start of pushdr section - currently hidden as incomplete-->
 <h3 style="text-decoration: underline">Case-study - Push Doctor</h3>
 <p>
 In this case study, I will recount some of the work I have recently been involved with whilst working for Push Doctor.
@@ -671,11 +974,15 @@ In this case study, I will recount some of the work I have recently been involve
   The Push Doctor core product
 </p>
 </div><!--PushDr-->
+</div><!--end of wrapper-->
+
       <footer>
-        <a href="http://twitter.com/thomasemmerson"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="http://facebook.com/tomemmerson1"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+
         <p class="text-muted">&copy; Tom Emmerson 2013 - present. Images used with permission. All rights reserved.</p>
       </footer>
     </div>
-  </body>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
 </html>
