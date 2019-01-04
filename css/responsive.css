@@ -1,4 +1,5 @@
 @media screen and (min-width: 480px) {
+
   
   /**********************************
   TWO COLUMN LAYOUT
@@ -14,6 +15,12 @@
     float: right;
   }
   
+h2 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-bottom: 5px;
+}
 
   
   /**********************************
@@ -65,10 +72,13 @@
     font-size: 2.5em;
   }
   
-  h2 {
-    font-size: 0.825em;
-    margin-bottom: 20px;
-  }
+
+h2 {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 1.8em;
+	padding-bottom: 15px;
+}
   
   header {
     border-bottom: 5px solid #a3a3a3;
